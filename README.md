@@ -1,12 +1,12 @@
 # redux-test
-try the redux, for verify the state changes after invoking of dispatch().
+try the redux, for verifying the state changes after invoking of dispatch().
 
-# run
+## run
 ````bash
 npm install
 npm run babel
 ````
-# result
+## result
 ````bash
 previous state: 0
 previous state: 0
@@ -22,3 +22,5 @@ current state: test2
 previous state: test2
 current state: test21
 ````
+## conclude
+you would found the last log of above, the state is changed by different action,so the store only maintains a state currently.
